@@ -167,10 +167,15 @@
         margin: -20px 0 30px;
         animation: start-right 3s 1s forwards;
     }
+
+    .icons{
+        text-align: center;
+        width: 140px;
+        margin: 0 20px;
+    }
     
     .icon{
         height: 100px;
-        margin: 0 20px;
     }
     
     .icon-name{

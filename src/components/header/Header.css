@@ -121,7 +121,7 @@ li.active, li:hover{
         display: flex;
     }
     nav{
-        padding: 0 30px;
+        padding: 0 30px 0 10px;
     }
     ul{
         position: absolute;

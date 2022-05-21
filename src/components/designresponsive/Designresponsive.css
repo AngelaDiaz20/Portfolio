@@ -95,6 +95,7 @@
     }
     
     .devices{
+        margin-top: 50px;
         padding: 60px;
         display: flex;
         justify-content: space-between;
