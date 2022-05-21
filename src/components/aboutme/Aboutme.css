@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.bg{
+    height: 100%;
+}
+
+.aboutme{
+    background-color: #0c0b1f;
+}
+
+.gradient{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: url(../../img/radial-gradient.svg);
+    background-size: cover;
+}
+
+.container-aboutme{
+    font-family: 'Encode Sans', sans-serif;
+    height: 100%;
+    margin-top: -120px;
+}
+
+.triangle{
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-image img{
+    height: 400px;
+}
+
+.information-aboutme{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.information-aboutme p{
+    font-size: 19px;
+    text-align: center;
+}
+
+.title-developer{
+    text-align: center;
+    margin-left: -30px;
+    font-size: 70px;
+    color: rgba(77, 64, 64, 0.326);
+}
+
+.information-aboutme h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Public Sans', sans-serif;
+    margin:-60px 0 30px;
+}
+
+h1 span{
+    -webkit-text-stroke: 2.5px #5199FF;
+}
+
+.information__subtitle{
+    background-color: rgba(0, 136, 255, 0.222);
+    margin: 30px 0 20px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+@media (min-width: 768px) {
+    .bg{
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .aboutme{
+        height: 93.6vh;
+    }
+        
+    .container-aboutme{
+        height: 100%;
+        margin-top: -160px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .my-image img{
+        height: 550px;
+    }
+    
+    .information-aboutme{
+        margin: auto;
+        display: flex;
+        width: 90%;
+    }
+    
+    .information-aboutme p{
+        font-size: 21px;
+    }
+    
+    .title-developer{
+        font-size: 160px;
+    }
+    
+    .information-aboutme h1{
+        font-size: 60px;
+        margin-bottom: 60px;
+    }    
+}
+
+@media (min-width: 1024px) {
+    .bg{
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .aboutme{
+        height: 93.6vh;
+        background-color: #0c0b1f;
+    }
+    
+    .gradient{
+        display: flex;
+        justify-content: center;
+        height: 105%;
+        width: 100%;
+        background: url(../../img/radial-gradient.svg);
+        background-size: cover;
+    }
+    
+    .container-aboutme{
+        font-family: 'Encode Sans', sans-serif;
+        height: 100%;
+        margin-top: -160px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .triangle{
+        background-size: cover;
+        width: 600px;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .my-image img{
+        height: 550px;
+    }
+    
+    .information-aboutme{
+        margin: 80px 40px;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    
+    .information-aboutme p{
+        font-size: 20px;
+    }
+    
+    .title-developer{
+        text-align: center;
+        font-size: 180px;
+        color: rgba(77, 64, 64, 0.326);
+    }
+    
+    .information-aboutme h1{
+        font-size: 70px;
+        font-family: 'Public Sans', sans-serif;
+        margin-bottom: 60px;
+    }
+    
+    h1 span{
+        -webkit-text-stroke: 2.5px #5199FF;
+    }
+    
+    .information__subtitle{
+        background-color: rgba(0, 136, 255, 0.222);
+        margin-top: 40px;
+        text-align: center;
+        border-radius: 6px;
+        padding: 10px;
+        font-size: 50px;
+    }
+}
