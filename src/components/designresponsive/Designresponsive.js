@@ -15,7 +15,7 @@ function Designresponsive(){
                 </div>
             </div>
         </section>
-    );
-}
+    ); 
+} 
 
 export default Designresponsive;

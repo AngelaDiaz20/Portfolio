@@ -6,6 +6,7 @@
     background: url("../../img/desktop.png") no-repeat;
     background-size: contain;
     background-position: center;
+    margin-top: -60px;
     height: 100%;
 }
 
@@ -14,18 +15,144 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    overflow-x: hidden;
 }
-
+ 
 .Phone_responsive{
-    height: 600px;
+    height: 250px;
+    opacity: 0;
+    z-index: 5;
 }
 
 .Tablet_responsive{
-    height: 700px; 
+    height: 300px;
+    opacity: 0; 
 }
 
 .container-devices-responsive h1{
     text-align: center;
-    font-size: 180px;
+    font-size: 100px;
     color: rgba(77, 64, 64, 0.326);
+}
+
+.devices-responsive:hover .Phone_responsive {
+    animation: show 1s 0.5s forwards;
+}
+
+@keyframes show {
+    0%{
+        transform: scale(.4);
+    }
+    20%{
+        
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(1);
+        transform: rotate(-15deg);
+        opacity: 1;
+    }
+}
+
+.devices-responsive:hover .Tablet_responsive {
+    animation: show-tablet 1s 0s forwards;
+}
+
+@keyframes show-tablet{
+    0%{
+        transform: scale(.4);
+    }
+    20%{
+        
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(1);
+        transform: rotate(15deg);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+    .container-devices-responsive{
+        background: #191919;
+    }
+    
+    .devices-responsive{
+        background: url("../../img/desktop.png") no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 100%;
+    }
+    
+    .devices{
+        padding: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        overflow-x: hidden;
+    }
+     
+    .Phone_responsive{
+        height: 600px;
+        opacity: 0;
+    }
+    
+    .Tablet_responsive{
+        height: 700px;
+        opacity: 0; 
+    }
+    
+    .container-devices-responsive h1{
+        text-align: center;
+        font-size: 180px;
+        color: rgba(77, 64, 64, 0.326);
+    }
+    
+    .devices-responsive:hover .Phone_responsive {
+        animation: show 1s 0s forwards;
+    }
+    
+    @keyframes show {
+        0%{
+            transform: scale(.4);
+        }
+        20%{
+            
+            opacity: 0.5;
+        }
+        100%{
+            transform: scale(1);
+            transform: rotate(-15deg);
+            opacity: 1;
+        }
+    }
+    
+    .devices-responsive:hover .Tablet_responsive {
+        animation: show-tablet 1s 0.5s forwards;
+    }
+    
+    @keyframes show-tablet{
+        0%{
+            transform: scale(.4);
+        }
+        20%{
+            
+            opacity: 0.5;
+        }
+        100%{
+            transform: scale(1);
+            transform: rotate(15deg);
+            opacity: 1;
+        }
+    }
 }

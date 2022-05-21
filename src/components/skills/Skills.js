@@ -16,18 +16,59 @@ function Skills(){
             <h1>SKILLS</h1>
             <section className='skills__design'>
                 <h2 className="skills__subtitle">Design <span>Skills</span></h2>
-                <img src={Figma} className="icon" alt="Icono de Figma"></img>
-                <img src={Adobexd} className="icon" alt="Icono de Adobe xd"></img>
-                <img src={Ilustrator} className="icon" alt="Icono de Ilustrator"></img>
+                <div className="skills__icons">
+                <div className="icons">
+                    <img src={Figma} className="icon" alt="Icono de Figma"></img>
+                    <p className="icon-name">Figma</p>
+                </div>
+                
+                <div className="icons">
+                    <img src={Adobexd} className="icon" alt="Icono de Adobe xd"></img>
+                    <p className="icon-name">Adobe Xd</p>
+                </div>
+
+                <div className="icons">
+                    <img src={Ilustrator} className="icon" alt="Icono de Ilustrator"></img>
+                    <p className="icon-name">Ilustrator</p>
+                </div></div>
+
             </section>
+
             <section className='skills__programming'>
+
                 <h2 className="skills__subtitle">Programming <span> Skills</span></h2>
-                <img src={Html5} className="icon" alt="Icono de Html5"></img>
-                <img src={Css3} className="icon" alt="Icono de Css3"></img>
-                <img src={Javascript} className="icon" alt="Icono de Javascript"></img>
-                <img src={Bootstrap} className="icon" alt="Icono de Bootstrap"></img>
-                <img src={React_icon} className="icon" alt="Icono de React"></img>
-                <img src={Python} className="icon" alt="Icono de Python"></img>
+                <div className="skills__icons">
+
+                <div className="icons">
+                    <img src={Html5} className="icon" alt="Icono de Html5"></img>
+                    <p className="icon-name">Html5</p>
+                </div> 
+
+                <div className="icons">
+                    <img src={Css3} className="icon" alt="Icono de Css3"></img>
+                    <p className="icon-name">Css3</p>
+                </div>
+
+                <div className="icons">
+                    <img src={Javascript} className="icon" alt="Icono de Javascript"></img>
+                    <p className="icon-name">Javascript</p>
+                </div>
+
+                <div className="icons">
+                    <img src={Bootstrap} className="icon" alt="Icono de Bootstrap"></img>
+                    <p className="icon-name">Bootstrap</p>
+                </div>
+
+                <div className="icons">
+                    <img src={React_icon} className="icon" alt="Icono de React"></img>
+                    <p className="icon-name">React</p>
+                </div>
+
+                <div className="icons">  
+                    <img src={Python} className="icon" alt="Icono de Python"></img>
+                    <p className="icon-name">Python</p></div>
+                </div> 
+
             </section>
         </section>
     );
