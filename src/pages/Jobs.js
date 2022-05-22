@@ -14,11 +14,15 @@ function Jobs(){
                 {jobs.map(job=> 
                     <div key={job.id} className="information-jobs__id">
                         <div className="jobs__image">{job.image}
-                            <div className="information__job">
-                            <div className="jobs__name">{job.nombre}</div>
-                            <Link to={`${job.id}`}>See more</Link></div>
-                        </div>
+                        
+                        <div className="jobs__name">{job.nombre}</div>
+
+                        <div className="jobs__means"> Made with:{job.recurses}</div>
+                            
+                        <button className="button__job"><Link to={`${job.id}`} className="link">See more</Link></button></div>
                     </div>
+
+                    
                 )}       
             </div>
         </div>

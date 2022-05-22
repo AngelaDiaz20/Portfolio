@@ -3,12 +3,13 @@
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     min-width: 300px;
 }
 
 .jobs{
-    width: 100%;
+    margin: auto;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -17,26 +18,108 @@
 .jobs__image{
     margin:20px auto;
     position: relative;
-    width: 85%;
+    width: 100%;
     padding: 3px;
     border: 1.5px solid white;
     border-radius: 5px;
     display: flex;
     justify-content: center;
+    transition-duration:1s;
+}
+
+.jobs__name{
+    font-size: 20px;
+    position: absolute;
+    bottom: -10px;
+    background-color: rgba(0, 0, 0, 0.948);
+    border: 1.5px solid white;
+    border-radius: 5px;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
 }
 
 .jobs__image img{
     width: 100%;
 }
 
-.information__job{
+.button__job{
     text-align: center;
-    padding: 5px;
-    height: 20%;
+    padding: 10px;
     position: absolute;
-    bottom: 10px;
-    background-color: #1F294C;
-    width: 90%;
-    border-radius: 10px;
+    top: 100px;
+    background-color: #000000b8;
+    width: 40%;
+    border-radius: 4px;
+    opacity: 0;
 }
 
+.link{
+    text-decoration: none;
+}
+
+@keyframes fade-in {
+    0% {
+        box-shadow: 0 0 0 0 rgba(29, 171, 209, .6),  0 0 0 0 rgba(29, 171, 209, .6);
+        transform: translateY(-15px);
+      }
+    
+      30% {
+        box-shadow: 0 0 0 10px rgba(29, 171, 209, 0), 0 0 0 0 rgba(29, 171, 209, .6);
+      }
+    
+      65% {
+        box-shadow: 0 0 0 10px rgba(29, 171, 209, 0), 0 0 0 30px rgba(29, 171, 209, 0);
+      }
+    
+      100% {
+        box-shadow: 0 0 0 0 rgba(29, 171, 209, 0),  0 0 0 30px rgba(29, 171, 209, 0);
+        opacity: 1;
+        transform: translateY(0px);
+        border: 1px solid rgba(29, 171, 209, .6);
+      }
+}
+
+.jobs__image:hover .button__job{
+    animation: fade-in 1.5s 1s forwards;
+}
+
+.jobs__image:hover{
+    background-color: black;
+}
+
+.jobs__image:hover img{
+    opacity: 0.4;
+}
+
+.jobs__image:hover .jobs__means{
+    animation: fade-in-means 2s 0s forwards;
+}
+
+.jobs__means{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+    opacity: 0;
+    top: 20px;
+    background-color: rgba(0, 0, 0, 0.426);
+    backdrop-filter: blur(2px);
+    width: 100%;
+    padding: 10px 0;
+}
+
+.resources i{
+    color: rgb(247, 243, 243);
+    font-size: 40px;
+    margin: 5px 8px 0;
+}
+
+@keyframes fade-in-means{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

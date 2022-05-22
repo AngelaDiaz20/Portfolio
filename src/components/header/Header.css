@@ -18,6 +18,7 @@ nav{
 
 .angelus{
     height: 68px;
+    transition-duration:500ms;
 }
 
 nav ul{
@@ -64,6 +65,10 @@ li.active, li:hover{
 }
 #check{
     display: none;
+}
+
+.angelus:hover{
+    transform: scale(1.01);
 }
 
 @keyframes blinker {

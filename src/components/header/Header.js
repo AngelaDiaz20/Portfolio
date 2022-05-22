@@ -10,7 +10,7 @@ function Header() {
             <img src={Angelus} alt="Logo" className="angelus"></img></Link>
             <input type="checkbox" id="check"></input>
             <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
+            <i class="fa-solid fa-bars-staggered"></i>
             </label>
             <ul>
                 <li>
