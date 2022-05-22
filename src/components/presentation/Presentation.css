@@ -15,7 +15,6 @@ main{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 90vh;
 }
 
 h2{
@@ -48,7 +47,7 @@ h3{
 
 
 .title{
-    margin-top: 40px;
+    margin-top: 20px;
     height: 80px;
     padding-top: 12px;
     background: url(../../img/line.svg) no-repeat;
@@ -73,6 +72,7 @@ h3{
     border-radius: 10px;
     backdrop-filter: blur(5px);
     box-shadow: 6px 6px 12px #19191946, -6px -6px 12px #19191946;
+    margin-bottom: 40px;
 }
 
 .presentation__image{
@@ -100,11 +100,14 @@ span{
 
 .social-media i{
     margin-top: 10px;
-    margin-right: -16px;
+    margin-right: 20px;
     font-size: 30px;
     transition-duration:150ms;
 }
 
+.fa-codepen{
+    margin-left: -40px;
+}
 
 @media (min-width: 768px) {
     main{
@@ -128,7 +131,7 @@ span{
     }
     
     .title{
-        margin-top: -60px;
+        margin-top: 0px;
         height: 150px;
         padding-top: 12px;
         background: url(../../img/line.svg) no-repeat;
