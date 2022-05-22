@@ -24,8 +24,8 @@ function Header() {
                 </li>
 
                 <li>
-                    <Link to="/studies" className='item'>Studies
-                    <i class="fa-solid fa-graduation-cap"></i></Link>
+                    <Link to="/skills" className='item'>Skills
+                    <i class="fa-solid fa-code"></i></Link>
                 </li>
                 
                 <li>
@@ -34,8 +34,8 @@ function Header() {
                 </li>
 
                 <li>
-                    <Link to="/skills" className='item'>Skills
-                    <i class="fa-solid fa-code"></i></Link>
+                    <Link to="/studies" className='item'>Studies
+                    <i class="fa-solid fa-graduation-cap"></i></Link>
                 </li>
             </ul>
         </nav>

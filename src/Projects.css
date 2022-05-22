@@ -52,6 +52,11 @@
     width: 40%;
     border-radius: 4px;
     opacity: 0;
+    transition-duration: 500ms;
+}
+
+.button__job:hover{
+    background-color: rgb(2, 44, 56);
 }
 
 .link{
@@ -81,7 +86,7 @@
 }
 
 .jobs__image:hover .button__job{
-    animation: fade-in 1.5s 1s forwards;
+    animation: fade-in 1.2s 0.6s forwards;
 }
 
 .jobs__image:hover{
@@ -93,7 +98,7 @@
 }
 
 .jobs__image:hover .jobs__means{
-    animation: fade-in-means 2s 0s forwards;
+    animation: fade-in-means 1s 0s forwards;
 }
 
 .jobs__means{
@@ -103,16 +108,20 @@
     position:absolute;
     opacity: 0;
     top: 20px;
-    background-color: rgba(0, 0, 0, 0.426);
+    background-color: rgba(0, 0, 0, 0.492);
     backdrop-filter: blur(2px);
     width: 100%;
     padding: 10px 0;
 }
 
-.resources i{
-    color: rgb(247, 243, 243);
-    font-size: 40px;
+.resources .i{
+    height:  40px;
     margin: 5px 8px 0;
+    opacity: 1;
+}
+
+.resources{
+    display: flex;
 }
 
 @keyframes fade-in-means{

@@ -1,5 +1,6 @@
 .container-devices-responsive{
     background: #191919;
+    overflow-x: hidden;
 }
 
 .devices-responsive{
@@ -22,6 +23,7 @@
     height: 250px;
     opacity: 0;
     z-index: 5;
+    margin-left: -20px;
 }
 
 .Tablet_responsive{

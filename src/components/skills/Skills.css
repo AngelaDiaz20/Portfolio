@@ -102,6 +102,7 @@
 }
 
 .skills h1{
+    overflow-x: hidden;
     text-align: center;
     font-size: 100px;
     color: rgba(77, 64, 64, 0.326);

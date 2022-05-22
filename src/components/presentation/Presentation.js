@@ -16,10 +16,19 @@ function Navbar(){
                         <h2>Hi!,</h2>
                         <h1 className="name">I'm Angela Díaz</h1>
                         <h3>Developer web</h3>
+                        <div className="social-media">
+                            Find me on:
+                            <div className='social-media_icons'>
+                            <a href="figma.com/@AngelusDiaz" target="_blank" rel="noreferrer" className="link-github"><i class="fa-brands fa-figma"></i></a>
+                            <a href="figma.com/@AngelusDiaz" target="_blank" rel="noreferrer" className="link-github"><i class="fa-brands fa-github-square"></i></a>
+                            <a href="figma.com/@AngelusDiaz" target="_blank" rel="noreferrer" className="link-github"><i class="fa-brands fa-codepen"></i></a>
+                            <a href="figma.com/@AngelusDiaz" target="_blank" rel="noreferrer" className="link-github"><i class="fa-brands fa-behance-square"></i></a>
+                            <a href="figma.com/@AngelusDiaz" target="_blank" rel="noreferrer" className="link-github"><i class="fa-brands fa-linkedin"></i></a></div>
+                        </div>
                     </div>
                 </div>
         </main>
     );
-}
+} 
 
 export default Navbar;

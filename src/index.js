@@ -1,3 +1,4 @@
+import './index.css'
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home from './pages/Home';

@@ -3,10 +3,10 @@ import About from "../components/aboutme/Aboutme"
 
 function Aboutme(){
     return(
-        <>
+        <div>
             <Header/>
             <About/>
-        </>
+        </div>
     )
 }
 

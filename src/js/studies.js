@@ -2,6 +2,7 @@ import Colegio from '../img/studies/Dep el Tequendama.svg';
 import Sena from '../img/studies/Sena.svg';
 import U_distrital from '../img/studies/U Distrital.svg';
 import MisionTIC from '../img/studies/Mision TIC.svg'
+import Kuepa from '../img/studies/Kuepa.svg'
 
 let studies=[
     {
@@ -41,7 +42,7 @@ let studies=[
         institucion:"Kuepa edutech",
         fecha:"2022",
         titulo:"Técnico en procesamiento de datos",
-        logo:<img src={Colegio} alt="Logo Colegio"></img>
+        logo:<img src={Kuepa} alt="Logo Kuepa"></img>
     },
 
 ]
