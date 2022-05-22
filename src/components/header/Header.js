@@ -29,7 +29,7 @@ function Header() {
                 </li>
                 
                 <li>
-                    <Link to="/jobs" className='item'>Jobs
+                    <Link to="/jobs" className='item'>Projects
                     <i class="fa-solid fa-laptop-code"></i></Link>
                 </li>
 
