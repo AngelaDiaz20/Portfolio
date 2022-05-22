@@ -18,7 +18,7 @@ function Navbar(){
                         <h3>Developer web</h3>
                         <div className="social-media">
                             Find me on:
-                            <div className='social-media_icons'>
+                            <div className='social-media__icons'>
                             <a href="figma.com/@AngelusDiaz" target="_blank" rel="noreferrer" className="link-github"><i class="fa-brands fa-figma"></i></a>
                             <a href="figma.com/@AngelusDiaz" target="_blank" rel="noreferrer" className="link-github"><i class="fa-brands fa-github-square"></i></a>
                             <a href="figma.com/@AngelusDiaz" target="_blank" rel="noreferrer" className="link-github"><i class="fa-brands fa-codepen"></i></a>
