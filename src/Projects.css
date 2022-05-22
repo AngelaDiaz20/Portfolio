@@ -1,0 +1,42 @@
+.information-jobs__id{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.jobs{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jobs__image{
+    margin:20px auto;
+    position: relative;
+    width: 85%;
+    padding: 3px;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.jobs__image img{
+    width: 100%;
+}
+
+.information__job{
+    text-align: center;
+    padding: 5px;
+    height: 20%;
+    position: absolute;
+    bottom: 10px;
+    background-color: #1F294C;
+    width: 90%;
+    border-radius: 10px;
+}
+

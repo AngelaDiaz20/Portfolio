@@ -1,6 +1,6 @@
 import Header from '../components/header/Header';
 import { getAllStudies } from "../js/studies";
-import '../Jobs.css'
+import '../Studies.css'
 import { Link } from "react-router-dom";
 
 function Studies(){
