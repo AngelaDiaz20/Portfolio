@@ -43,7 +43,7 @@
     font-size: 45px;
     font-family: 'Public Sans', sans-serif;
     margin-bottom: 60px;
-    animation: start-left 2s 0s;
+    animation: start-left 1s 0s;
 }
 
 .skills__subtitle span{
@@ -57,7 +57,7 @@
     justify-content: center;
     opacity: 0;
     margin: -20px 0 30px;
-    animation: start-right 3s 1s forwards;
+    animation: start-right 1s 500ms forwards;
 }
 
 .icons{
@@ -118,34 +118,6 @@
         text-align: center;
     }
     
-    @keyframes start-left {
-        0%{
-            transform: translateX(-500px);
-            opacity: 0.2;
-        }
-        50%{
-            opacity: 0.6;
-        }
-        100%{
-            transform: translateX(0px);
-            opacity:1;
-        }
-    }
-    
-    @keyframes start-right {
-        0%{
-            transform: translateX(500px);
-            opacity: 0.2;
-        }
-        20%{
-            opacity: 0.4;
-        }
-        100%{
-            transform: translateX(0px);
-            opacity:1;
-        }
-    }
-    
     .skills__design{
         margin-top: -100px;
     }
@@ -190,22 +162,7 @@
         animation: 1s cartel 1;
         transform-origin:top center;
     }
-    
-    @keyframes cartel {
-        20%{
-            transform: rotate(15deg);
-        }
-        40%{
-            transform: rotate(-10deg);
-        }
-        60%{
-            transform: rotate(5deg);
-        }
-        80%{
-            transform: rotate(-3deg);
-        } 
-    }
-    
+        
     .icons:hover .icon-name{
         opacity: 1;
         color: #bad7ff;

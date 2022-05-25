@@ -125,14 +125,14 @@ let jobs=[
         nombre:"Halo Infinite",
         image:<img src={Halo} alt="Imagen Halo"></img>,
         job:<img src={Job_halo} alt="Imagen Halo"></img>,
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique malesuada amet, elit urna. Tempus viverra ac pharetra urna. Maecenas enim, aliquam porta lectus laoreet a massa malesuada ullamcorper. Iaculis vehicula eu eget pharetra, euismod nibh.",
+        description:"(Website is under construction) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique malesuada amet, elit urna. Tempus viverra ac pharetra urna. Maecenas enim, aliquam porta lectus laoreet a massa malesuada ullamcorper. Iaculis vehicula eu eget pharetra, euismod nibh.",
         recurses:<div className="resources">
                     <img src={Html5} className="i" alt="Icono Html5"></img>
                     <img src={Css3} className="i" alt="Icono Css3"></img>
                     <img src={Javascript} className="i" alt="Icono Javascript"></img>
                 </div>,
-        git:"http://localhost:3000/error/not-found",
-        deploy:"http://localhost:3000/error/not-found"
+        git:"https://github.com/AngelaDiaz20/Halo-infinite",
+        deploy:"https://angeladiaz20.github.io/Halo-infinite/index.html"
     },
 
     {

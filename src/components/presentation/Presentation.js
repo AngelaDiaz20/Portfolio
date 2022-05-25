@@ -13,9 +13,9 @@ function Navbar(){
                     </div>
                 
                     <div className="presentation__text">
-                        <h2>Hi!,</h2>
+                        <h2>Hi!</h2>
                         <h1 className="name">I'm Angela Díaz</h1>
-                        <h3>Developer web</h3>
+                        <h3>Web Developer</h3>
                         <div className="social-media">
                             Find me on:
                             <div className='social-media__icons'>
@@ -27,7 +27,7 @@ function Navbar(){
                                 
                                 <a href="https://www.behance.net/angeladiaz19" target="_blank" rel="noreferrer" className="link-behance"><i class="fa-brands fa-behance-square"></i></a>
                                 
-                                <a href="#" target="_blank" rel="noreferrer" className="link-linkedin"><i class="fa-brands fa-linkedin"></i></a></div>
+                                <a href="https://www.linkedin.com/in/angelus-diaz" target="_blank" rel="noreferrer" className="link-linkedin"><i class="fa-brands fa-linkedin"></i></a></div>
                         </div>
                     </div>
                 </div>
